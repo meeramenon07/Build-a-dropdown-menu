@@ -1,0 +1,105 @@
+
+#dropdownmenu{
+  
+margin:34px 10px 10px -25px;
+
+  
+padding:10px 10px 10px 10px;
+width: 3000px;  
+text-decoration :none;
+list-style:none;
+ 
+
+ 
+}
+
+#dropdownmenu ul{
+ 
+list-style:none;
+  height:20px;
+  margin:10px;
+  padding:10px;
+/*margin:10px;*/
+/*padding:10px;*/
+}
+
+#dropdownmenu li{
+float:left;
+padding:6px;
+  
+  margin-left:-3px;
+}
+  
+#dropdownmenu li a{
+  text-decoration :none;
+}
+
+
+
+
+#dropdownmenu li > a:hover, #dropdownmenu ul li:hover{
+  
+  
+
+background-color: blueviolet;
+  
+  
+
+
+  
+}
+
+#dropdownmenu li ul {
+
+display:none;
+/*height:auto;*/
+padding:0px;
+margin:0px;
+position:absolute ;
+height:auto;
+width:100px; 
+
+  
+
+}
+
+#dropdownmenu li:hover ul{
+display:block;
+}
+
+
+
+
+
+
+
+
+#dropdownmenu li ul a{
+  
+display:block;
+height:auto
+
+padding:auto;
+  height :auto;
+text-align:left;
+  
+color:whitesmoke;
+background:darkcyan;
+ 
+  
+}
+#dropdownmenu a {
+  color:whitesmoke;
+  background:deeppink;
+  padding:4px;
+  height:auto;
+  
+}
+
+
+
+  
+
+
+
+
